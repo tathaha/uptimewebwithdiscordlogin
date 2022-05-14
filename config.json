@@ -1,0 +1,32 @@
+ {
+    "bot": {
+        "prefix": "up!",
+        "id": "939031010266447902",   
+        "secret": "ENV",
+        "token": "ENV"
+    },
+    "dashboard": {
+        "port": 3000,
+        "url": "https://uptimer-website.hikimotori.repl.co",
+        "callback": "https://uptimer-website.hikimotori.repl.co/callback",
+        "discord_server_ID": "914066843881320468",
+        "ownerids": ["685716988471148552", "685716988471148552"],
+        "ownershow": true,
+        "owners": [
+            {
+                "id": "685716988471148552",
+                "desc": "developer"
+            },
+            {
+                "id": "906543350323224607",
+                "desc": "user"
+            }
+        ],
+        "arc": {
+            "enabled": false,
+            "code": ""
+        }
+    },
+    "mongodb": "mongodb+srv://chiraitori:chiraitori@cluster0.hec9u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "discord": "discord.gg/yourserverlink"
+ }
