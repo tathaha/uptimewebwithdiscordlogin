@@ -61,7 +61,7 @@ module.exports = async bot => {
 
     app.set('view engine', 'ejs');
     app.set('views', path.join(__dirname, 'views'));
-    app.listen(process.env.PORT, () => console.log(chalk.green(`Started Server On Port ${process.env.PORT}`)));
+    app.listen(config.dashboard.port, () => console.log(chalk.green(`Started Server On Port ${process.env.PORT}`)));
 
     app.use(
         "/js",
